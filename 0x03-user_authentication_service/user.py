@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 class User(Base):
-    """Record representation from the `user` table.
+    """Representation of a user
     """
     __tablename__ = "users"
     id = Column(Integer, primary_key=True)
